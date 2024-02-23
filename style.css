@@ -1,0 +1,93 @@
+/* styles */
+body {
+  background: #ddd;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  margin: 0 auto;
+  color: #000;
+  height: 100vh;
+  cursor: default;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  overflow: hidden;
+  background-color: #55bd03;
+  margin: 0 auto;
+  max-width: 480px;
+}
+.title {
+  font-size: 26px;
+}
+.titleblk img {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+.category {
+  font-family: "Rubik Mono One", monospace;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+.text {
+  text-align: center;
+  font-family: "Rubik Mono One", monospace;
+  font-size: 20px;
+  line-height: 38px;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.button {
+  font-size: 20px;
+  font-family: "Rubik Mono One", monospace;
+  line-height: 28px;
+  padding: 10px 20px;
+  width: 25%;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+}
+.big {
+  font-size: 14px;
+  width: 40%;
+  padding: 13px;
+}
+.images {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+}
+.image {
+  width: 100%;
+  height: fit-content;
+}
+.buttons_2 {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.buttons_1 {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.six {
+  width: 25%;
+}
+.third {
+  width: 35%;
+}
